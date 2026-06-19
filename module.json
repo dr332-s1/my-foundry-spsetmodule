@@ -1,7 +1,7 @@
 {
     "id": "silverplate-campaign-setting",
     "title": "The Tasty Lands of Silverplate",
-    "manifest": "mainfest-link-here",
+    "manifest": "https://r2.foundryvtt.com/packages-public/silverplate-campaign-setting/module.json",
     "protected": true,
     "version": "1.0.0",
     "compatibility": {
