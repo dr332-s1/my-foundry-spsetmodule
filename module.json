@@ -1,0 +1,94 @@
+{
+    "id": "silverplate-campaign-setting",
+    "title": "The Tasty Lands of Silverplate",
+    "manifest": "mainfest-link-here",
+    "protected": true,
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "authors": [
+        {
+            "name": "Fensun",
+            "discord": "fen_sun",
+            "email": "onur.oney.metu@gmail.com",
+            "flags": {}
+        }
+    ],
+    "flags": {
+        "canUpload": true,
+        "dnd5e": {
+            "sourceBooks": {
+                "Silverplate Campaign Setting": "SP-CS"
+            }
+        }
+    },
+    "packs": [
+        {
+            "name": "silverplate-actors",
+            "label": "Silverplate Actors",
+            "path": "packs/silverplate-actors",
+            "type": "Actor",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "silverplate-items",
+            "label": "Silverplate Items",
+            "path": "packs/silverplate-items",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "silverplate-journals",
+            "label": "Silverplate Journals",
+            "path": "packs/silverplate-journals",
+            "type": "JournalEntry",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "silverplate-rollable-tables",
+            "label": "Silverplate Rollable Tables",
+            "path": "packs/silverplate-rollable-tables",
+            "type": "RollTable",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "silverplate-scenes",
+            "label": "Silverplate Scenes",
+            "path": "packs/silverplate-scenes",
+            "type": "Scene",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "description": "<p>Across the vast regions of Silverplate, from the mushroom forests of the North to Royal Pistachio in the South, foodfolk live mostly carefree lives. Their resolve is hardened by sugar, their companionship bound by yolk, and their curiosity carries them across the world in search of adventure and the wonders of culinary geography. Cooked within the Divine Kitchen itself, Silverplate is a realm where stories and food become one.<br /><br /><em>**Tokens made by using </em><a href=\"https://foundryvtt.com/packages/vtta-tokenizer/\"><em>Tokenizer</em></a></p>"
+}
